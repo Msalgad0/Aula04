@@ -6,10 +6,10 @@ combustivel = input("Digite seu combustivel  \n"
 vGas = 6.5
 vEta = 4.9
 
-if combustivel == 'G' or 'g':
+if combustivel == 'G' or combustivel == 'g':
         valorgasolina = litrocombustivel * vGas
         print(f"Você abasteceu {litrocombustivel} e gastou {valorgasolina} de Gasolina\n")
 else:
-    if combustivel == 'E' or 'e':
+    if combustivel == 'E' or combustivel == 'e':
         valoretanol = litrocombustivel * vEta
         print(f"Você abasteceu {litrocombustivel} e gastou {valoretanol} de etanol\n")
